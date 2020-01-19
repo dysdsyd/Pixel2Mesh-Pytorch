@@ -19,7 +19,7 @@ import random
 parser = argparse.ArgumentParser()
 parser.add_argument('--dataPath', type = str, default = 'data/ShapeNetTrain/02691156_d3b9114df1d8a3388e415c6cf89025f0_02.dat', 
                     help = 'the path to find the data')
-parser.add_argument('--modelPath', type = str, default = 'log/2019-01-18T02:32:24.320546/network_4.pth',  help = 'the path to find the trained model')
+parser.add_argument('--modelPath', type = str, default = 'network_4.pth',  help = 'the path to find the trained model')
 parser.add_argument('--savePath', type = str, default = 'eval/',  help = 'the path to save the reconstructed meshes')
 parser.add_argument('--saveName', type = str, default = 'out_mesh',  help = 'the name of the output mesh')
 parser.add_argument('--offPath', type = str, default = 'data/ellipsoid/',  help = 'the path to save the mesh surface')
